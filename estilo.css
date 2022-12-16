@@ -1,0 +1,57 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin:50px;
+    font-size: 17px;
+    
+}
+p {
+    color: #00f;
+    font-size: 20px;
+    font-family: 'chilanka';
+    text-align: justify;
+    text-shadow: 2px 1px 6px #f00;
+
+}
+h1 {
+    font-family: 'Rubik Puddles';
+   
+
+}
+
+a {
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 6px #f00;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/*Estilos da tabela*/
+table {
+    width: 600px;
+    
+ }
+ th,td {
+    padding: 10px;
+    text-align: left;
+
+ }
+ table thead {
+    background-color: #ccc;
+
+ }
+
+ 
+ tbody td {
+    border-bottom: 1px solid #ccc;
+ }
+ tbody tr:nth-child(even) {
+    background-color: #eee;
+ }
+ tbody tr:hover {
+    background-color: #e100ff;
+ }
