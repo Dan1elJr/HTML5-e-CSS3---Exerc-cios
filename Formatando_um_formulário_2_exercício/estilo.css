@@ -1,0 +1,43 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin:50px;
+    font-size: 17px;
+    
+}
+p {
+    color: #00f;
+    font-size: 20px;
+    font-family: 'chilanka';
+    text-align: justify;
+    text-shadow: 2px 1px 6px #f00;
+
+}
+h1 {
+    font-family: 'Rubik Puddles';
+   
+
+}
+fieldset {
+    background-color: #EEE;
+    margin-bottom: 20px;
+    border: 4px solid #F00;
+}
+.estilobotao {
+    border: 4px solid #F00;
+    background-color: #FFF;
+    border-radius: 8px;
+    
+
+}
+.estilobotao:hover {
+    border-color: orange;
+}
+legend {
+    background-color: #F00;
+    color:#FFF;
+    padding: 5px;
+    
+}
