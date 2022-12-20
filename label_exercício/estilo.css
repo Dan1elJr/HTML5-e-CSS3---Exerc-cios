@@ -1,0 +1,23 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin:50px;
+    font-size: 17px;
+    
+}
+p {
+    color: #00f;
+    font-size: 20px;
+    font-family: 'chilanka';
+    text-align: justify;
+    text-shadow: 2px 1px 6px #f00;
+
+}
+h1 {
+    font-family: 'Rubik Puddles';
+   
+
+}
+
