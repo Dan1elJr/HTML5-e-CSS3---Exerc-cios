@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Página de teste</title>
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&family=Rubik+Puddles&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="estilo.css"/>
+    </head>
+    
+    <body>
+      <form action="login.html" method="GET">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro nome:<br/>
+                <input type="text" name="name" required minlength="2" maxlength="4"/>
+
+            </label><br/>
+            <label>
+                Idade:<br/>
+                <input type="number" name="age" min="18" max="100"/>
+
+            </label><br/>
+            <label>
+                Sobrenome:<br/>
+                <input type="text" name="lastname" required minlength="2" maxlength="4"/>
+
+            </label><br/>
+            <label>
+                E-mail:<br/>
+                <input type="text" name="email" pattern="([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$)" title="Endereço de E-mail"/>
+
+            </label><br/>
+            <label>
+                Data de nascimento:<br/>
+                <input type="date" name="birthdate" min="2022-12-21" />
+
+            </label><br/>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da empresa:<br/>
+                <input type="text" name="companyname"/>
+
+            </label><br/>
+            <label>
+                Cargo:<br/>
+                <input type="text" name="jobtitle"/>
+
+            </label><br/>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar" class="estilobotao"/>
+
+      </form>
+            
+    </body>
+    
+</html>
+
