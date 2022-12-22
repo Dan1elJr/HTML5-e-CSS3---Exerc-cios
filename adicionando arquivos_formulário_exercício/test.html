@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Página de teste</title>
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&family=Rubik+Puddles&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="estilo.css"/>
+    </head>
+    
+    <body>
+      <form action="login.html" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="country" value="BR"/>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro nome:<br/>
+                <input type="text" name="name" required minlength="2" >
+
+            </label><br/>
+            <label>
+                Sobrenome:<br/>
+                <input type="text" name="lastname" required minlength="2" />
+
+            </label><br/>
+            <label>
+                Foto:<br/>
+                <input type="file" name="photo" accept="image/*"/>
+
+            </label><br/>
+            
+            
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da empresa:<br/>
+                <input type="text" name="companyname"/>
+
+            </label><br/>
+            <label>
+                Cargo:<br/>
+                <input type="text" name="jobtitle"/>
+
+            </label><br/>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar" class="estilobotao"/>
+
+      </form>
+            
+    </body>
+    
+</html>
+
