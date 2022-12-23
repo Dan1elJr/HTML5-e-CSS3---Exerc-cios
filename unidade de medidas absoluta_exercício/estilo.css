@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+   
+}
+/* exemplo de unidade de medida absoluta 1 */
+.container {
+    width: 5px;
+    height: 5px;
+    background-color: #999;
+}
+/*exemplo de unidade de medida absoluta 2 */
+.container {
+    width: 5pt;
+    height: 5pt;
+    background-color: #999;
+}
+/*exemplo de unidade de medida absoluta 3 */
+.container {
+    width: 5in;
+    height: 5in;
+    background-color: #999;
+}
+/*exemplo de unidade  de medida absoluta 4 */
+.container {
+    width: 5cm;
+    height: 5cm;
+    background-color: #999;
+}
+
+
