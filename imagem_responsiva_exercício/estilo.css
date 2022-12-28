@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    color: #ff0000;
+   
+}
+
+/* Nome da cor */
+h1 {
+    color: red;
+}
+/* cor em hexadecimal */
+h2 {
+    color: #0F0;
+}
+/* cor em rgb */
+h3 {
+    color: rgb(0,0,255);
+}
+/* cor em hsl */
+h4 {
+    color: hsl(100%,0,0);
+}
+
+/* variável current color */
+h5 {
+    color: currentColor;
+}
+ div {
+   
+    height: 20%;
+    background-color: aliceblue;
+ }
+ div div {
+    background-color: #000;
+    width: 5%;
+    height: auto;
+   
+            word-wrap: break-word;
+           
+    
+ }
