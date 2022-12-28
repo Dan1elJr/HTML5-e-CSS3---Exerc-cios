@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    color: #ff0000;
+   
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    /* object-fit: fill; */
+    /* object-fit: contain; */
+    object-fit: cover;
+    /* object-fit: none; */
+    /* object-fit: scale-down; */
+
+}
