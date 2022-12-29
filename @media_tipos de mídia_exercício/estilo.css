@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+  
+   
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+table, td{
+    border: 2px solid #F00;
+}
+@media only print {
+    h1 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    table, td {
+        border: 0;
+    }
+
+}
+
+
+
