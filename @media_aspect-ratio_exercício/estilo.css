@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+}
+
+@media(aspect-ratio: 1/1){
+    body {
+        background-color: #F00;
+    }
+}
+@media(min-aspect-ratio: 2/3){
+    body{
+        background-color: #00F;
+    }
+}
