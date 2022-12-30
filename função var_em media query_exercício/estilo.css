@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color:#000;
+    --bg-second:#444;
+    --font-color:#FFF;
+    --font-size: 25px;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--bg-color);
+    font-size: var(--font-size);   
+}
+h1 {
+    color: var(--font-color);
+    
+    
+    
+}
+.container {
+    background-color: var(--bg-second);
+    color: var(--font-color);
+}
+@media (max-width:450px){
+    :root{
+        --font-size:15px;
+    }
+}
+@media (min-width:900px){
+    :root{
+        --font-size:40px;
+    }
+}
+@media only screen {
+    :root {
+        --font-size:10px ;
+    }
+}
+
