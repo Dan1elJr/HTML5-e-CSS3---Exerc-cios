@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    
+    margin:0;
+ 
+
+}
+.class {
+  
+    font-size: 30px;
+    color: #0F0;
+    text-shadow: 2px 2px 10px #F00;
+
+}
+/* aplicando estilo a tag personalizada */
+daniel {
+    
+    font-size: 30px;
+    color: #0F0;
+    text-shadow: 2px 2px 10px #F00;
+}
