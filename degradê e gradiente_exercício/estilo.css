@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px; 
+    
+ 
+
+}
+.exemplo {
+    width: 500px;
+    height: 200px; 
+    background: blue;
+    background:linear-gradient(135deg, white,blue);
+    background:-moz-linear-gradient(135deg, white,blue);
+    background:-o-linear-gradient(135deg, white,blue); 
+    background:-webkit-linear-gradient(135deg, white,blue);
+}
+
+
+
+
