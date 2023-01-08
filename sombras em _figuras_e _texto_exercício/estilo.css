@@ -1,0 +1,46 @@
+@keyframes exemplo {
+    0%{  background-color: red;top:0;left:0px; }
+    25%{ background-color: yellow;top:0px;left:200px; }
+    50%{ background-color: blue ;top:200px;left:200px;}
+    75%{ background-color: green;top:200px;left:0;}
+    100%{background-color: red;top:0;left:0;}
+    
+}
+
+
+body {
+    margin: 0; 
+    
+ 
+
+}
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: #F00;
+    margin:auto;
+    margin-top: 200px;
+    border-radius: 75px;
+    box-shadow: 0px 0px 50px #000;
+
+    
+   
+
+    
+  
+}
+.sombratexto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-shadow: 3px 1px 10px #000;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
