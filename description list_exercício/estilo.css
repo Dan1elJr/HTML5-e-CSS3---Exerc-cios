@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0; 
+    
+ 
+
+}
+
+dl{
+    border: 4px solid #000;
+    width: 259px;
+    text-align: justify;
+    margin:auto;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
