@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0; 
+}
+/* Citação utilizando a tag q */
+q,blockquote {
+    color:#0088FF;
+    font-style: italic;
+}
+p,q,blockquote {
+    font-size: 20px;
+    max-inline-size: 50%;
+    
+}
+
+
+
+
+
+
+
+
+
