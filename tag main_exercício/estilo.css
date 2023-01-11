@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0; 
+}
+
+
+header{
+    min-height: 100px;
+    background-color: #777;
+}
+section {
+    display: flex;
+    min-height: 85vh;
+   
+}
+main {
+    
+    background-color: #999;
+    width: 100%;
+}
+aside{
+    width: 150px;
+    background-color: #DDD;
+    word-wrap: break-word;
+    
+}
+footer{
+    background-color: #CCC;
+    min-height: 100px;
+}
+
+
+
+
+
+
+
+
+
