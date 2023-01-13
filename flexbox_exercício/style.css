@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 5px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #DDDDDD;
+    margin: 10px;
+
+}
+
+.container .div1{
+    flex: 1;
+    background-color: #F00;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+}
+.container .div2{
+    flex: 2;
+    background-color: #0F0;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+}
