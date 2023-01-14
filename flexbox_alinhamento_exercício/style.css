@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 5px;
+}
+/* Exibição do flexbox */
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-items: center;
+    height: 700px;
+    background-color: #DDDDDD;
+    
+    
+
+}
+
+/* dimensão das box */
+.container div{
+    width: 200px;
+    height: 200px;
+    background-color: #F00;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+}
