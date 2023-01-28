@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0; 
+    
+}
+input{
+    display: block;
+}
+[required]{
+    background-color: black;
+} 
+input[name="enviar"]{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
