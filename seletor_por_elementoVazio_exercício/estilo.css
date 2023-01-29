@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0; 
+    
+}
+
+div {
+    background-color: black;
+}
+div:empty {
+    height: 20px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
