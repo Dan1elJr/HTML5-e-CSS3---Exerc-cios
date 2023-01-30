@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0; 
+    
+}
+
+p::first-letter {
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+p::first-line {
+    background-color: #CCC;
+}
+
+
+
+
+
+
+
+
