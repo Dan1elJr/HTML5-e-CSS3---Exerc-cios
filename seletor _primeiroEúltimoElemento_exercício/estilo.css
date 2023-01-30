@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 10px; 
+    
+}
+
+div {
+    width: 80px;
+    height: 80px;
+    background-color: #00F;
+}
+div:first-child {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+div:last-child {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+div:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
