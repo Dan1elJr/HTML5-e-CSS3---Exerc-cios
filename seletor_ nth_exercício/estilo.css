@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 10px; 
+    
+}
+
+div {
+    
+    height: 80px;
+}
+
+div:nth-child(3){
+    background-color: brown;
+}
+
+
+
+
+
+
+
