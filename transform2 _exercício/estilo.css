@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+/* distorção em y */
+div {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: auto;
+    transform: skew( 0,50deg);
+    margin-top: 100px;
+    
+    
+   
+} 
+/* distorção em x */
+div:nth-child(2){
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: auto;
+    transform: skew(50deg);
+    margin-top: 100px;  
+}
+/* rotação/espelhamento em y */
+div:nth-child(3){
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: auto;
+    transform: rotatey(180deg);
+    margin-top: 100px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
