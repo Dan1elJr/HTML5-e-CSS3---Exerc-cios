@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    
+}
+div {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: auto;
+    margin-top: 100px;
+    transform: scale(2);
+   
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
