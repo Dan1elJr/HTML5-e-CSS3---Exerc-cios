@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+table {
+    border: 2px solid #CCC;
+    margin: auto;
+}
+
+thead th {
+    background-color: #CCC;
+}
+tr:nth-last-child(even ){
+    background-color: #0F0;
+}
+th,td {
+    padding: 2px;
+   
+}
+
+tbody tr:hover {
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
