@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+    grid-column-gap:10px;
+    grid-row-gap: 10px;
+    
+}
+.item {
+    background-color: #00F;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
