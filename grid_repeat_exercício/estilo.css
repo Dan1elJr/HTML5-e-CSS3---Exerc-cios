@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 100px 200px repeat(2, 1fr 2fr ) ;
+    grid-column-gap:10px;
+    grid-row-gap: 10px;
+    
+}
+.item {
+    background-color: #00F;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
