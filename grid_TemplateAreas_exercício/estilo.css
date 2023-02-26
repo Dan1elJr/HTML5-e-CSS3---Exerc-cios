@@ -9,6 +9,7 @@
     
     
     display: grid;
+    /* posicionando elementos grid-area */
     grid-template-areas: 
         "item1 item1 item2"
         "item3 item3 item2"
@@ -33,7 +34,7 @@
     justify-content: center;
     align-items: center;
 }
-
+/* elementos grid-area */
 .item1{
     grid-area: item1;
 }
